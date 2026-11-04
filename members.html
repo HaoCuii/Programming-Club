@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Members — Programming Club</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+
+    <!-- Navigation (left side) -->
+    <nav>
+      <a href="index.html" class="logo">
+        <img src="images/pmss-logo.png" alt="Port Moody Secondary School">
+      </a>
+      <ul>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="members.html" class="nav-link active">Members</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1 class="title">Members</h1>
+
+      <!-- Members show up here.
+           To add yourself, edit content/members.js (not this file!) -->
+      <div id="members-list"></div>
+    </main>
+
+  </div>
+
+  <!-- Scripts: components first, then the content that uses them -->
+  <script src="scripts/components.js"></script>
+  <script src="content/members.js"></script>
+</body>
+</html>

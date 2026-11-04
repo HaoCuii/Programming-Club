@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programming Club</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+
+    <!-- Navigation (left side) -->
+    <nav>
+      <a href="index.html" class="logo">
+        <img src="images/pmss-logo.png" alt="Port Moody Secondary School">
+      </a>
+      <ul>
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="members.html" class="nav-link">Members</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- About the club -->
+      <article class="prose">
+        <h1 class="title">Programming Club</h1>
+
+        <p>
+          Welcome! We're a group of students who like to <strong>learn</strong>,
+          <strong>build</strong>, and <strong>share</strong> code together.
+          Whether you've never written a line of code or you're already shipping
+          projects, there's a seat for you.
+        </p>
+
+        <p>
+          Come to a meeting, bring a laptop, and meet the
+          <a href="members.html">members</a>.
+        </p>
+      </article>
+
+      <h2 class="section-title">Announcements</h2>
+
+      <!-- Announcements show up here.
+           To add one, edit content/announcements.js (not this file!) -->
+      <div id="announcements-list"></div>
+    </main>
+
+  </div>
+
+  <!-- Scripts: components first, then the content that uses them -->
+  <script src="scripts/components.js"></script>
+  <script src="content/announcements.js"></script>
+</body>
+</html>
