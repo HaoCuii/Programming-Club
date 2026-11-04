@@ -17,9 +17,9 @@
 
 // ----- EXAMPLE (copy this!) -----
 addMember({
-  name: "Member Name",
-  description: "A short little description about this member.",
-  image: "images/placeholder.svg",
+  name: "Sean",
+  description: "cool cool cool",
+  image: "images/sean_pfp.png",
 });
 
 
@@ -28,4 +28,11 @@ addMember({
 addMember({
   name: "Member Name",
   description: "A short little description about this member.",
+});
+
+// ----- EXAMPLE (copy this!) -----
+addMember({
+  name: "Member Name",
+  description: "A short little description about this member.",
+  image: "images/placeholder.svg",
 });
